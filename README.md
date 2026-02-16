@@ -1,6 +1,6 @@
 # 🚀 Employee Logistics - Workforce Management Platform
 
-A production-ready Employee Attendance System built with the **MERN stack** (MongoDB, Express, React, Node.js) featuring a modern Learning Platform UI inspired by Coursera, Udemy, and Notion.
+A production-ready Employee Attendance System built with the **MERN stack** (Postregsql, Express, React, Node.js) featuring a modern Learning Platform UI inspired by Coursera, Udemy, and Notion.
 
 ## ✨ Features
 
@@ -55,7 +55,7 @@ A production-ready Employee Attendance System built with the **MERN stack** (Mon
 
 ### Backend
 - Node.js + Express
-- MongoDB + Mongoose
+- Postregsql + Mongoose
 - JWT (authentication)
 - bcrypt (password hashing)
 - express-validator (input validation)
@@ -120,7 +120,7 @@ Tap_Demo/
 
 ### Prerequisites
 - Node.js (v16 or higher)
-- MongoDB (local or MongoDB Atlas)
+- Postregsql (local or Postregsql Atlas)
 
 ### Installation
 
@@ -137,10 +137,10 @@ npm install
 # Create .env file
 copy .env.example .env
 
-# Edit .env and add your MongoDB connection string
-# MONGODB_URI=mongodb://localhost:27017/attendance_system
-# OR for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/attendance_system
+# Edit .env and add your Postregsql connection string
+# Postregsql_URI=Postregsql://localhost:27017/attendance_system
+# OR for Postregsql Atlas:
+# Postregsql_URI=Postregsql+srv://username:password@cluster.Postregsql.net/attendance_system
 
 # JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 ```
@@ -307,9 +307,9 @@ npm run build
 
 ## 🐛 Troubleshooting
 
-### MongoDB Connection Issues
-- Ensure MongoDB is running locally or Atlas connection string is correct
-- Check firewall settings for MongoDB Atlas
+### Postregsql Connection Issues
+- Ensure Postregsql is running locally or Atlas connection string is correct
+- Check firewall settings for Postregsql Atlas
 - Verify network access in Atlas dashboard
 - From `backend/`, run `npm run test:db` for a direct mongoose connection test
 - From `backend/`, run `npm run diagnose:db` to test DNS and TCP reachability to Atlas hosts
@@ -333,3 +333,4 @@ Built with ❤️ using the MERN stack
 ---
 
 **Enjoy using AttendEase! 🎉**
+
