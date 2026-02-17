@@ -1,3 +1,4 @@
+Leela Lohin Reddy Vemulapati - Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology - 8374742988
 # 🚀 Employee Logistics - Workforce Management Platform
 
 A production-ready Employee Attendance System built with the **MERN stack** (Postregsql, Express, React, Node.js) featuring a modern Learning Platform UI inspired by Coursera, Udemy, and Notion.
@@ -333,4 +334,5 @@ Built with ❤️ using the MERN stack
 ---
 
 **Enjoy using AttendEase! 🎉**
+
 
